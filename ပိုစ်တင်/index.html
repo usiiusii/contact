@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>အွန်လိုင်းစနစ် ဝဘ်အပ်</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ကျွန်တော်တို့ရဲ့ အွန်လိုင်းစနစ်</h1>
+        <button id="adminLoginBtn">အက်ဒမင် ဝင်ရောက်ရန်</button>
+    </header>
+
+    <main>
+        <section id="admin-panel" style="display: none;">
+            <h2>ပို့စ်အသစ်တင်ရန်</h2>
+            <form id="newPostForm">
+                <input type="text" id="postTitle" placeholder="ပို့စ်ခေါင်းစဉ်" required>
+                <textarea id="postContent" placeholder="စာသား" required></textarea>
+                <input type="file" id="postImage" accept="image/*">
+                <button type="submit">ပို့စ်တင်မည်</button>
+            </form>
+        </section>
+
+        <section id="posts-container">
+            </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
